@@ -34,13 +34,25 @@
         font-family: "Indie Flower", cursive;
     }
 
-    button {
+    .wakeServer {
         padding: 10px 20px;
         font-size: 18px;
         margin: 0;
         position: absolute;
         top: 30%;
-        left: 50%;
+        left: 60%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        background-color: #f5dd88;
+    }
+
+    .rollDice {
+        padding: 10px 20px;
+        font-size: 18px;
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 40%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         background-color: #f5dd88;
