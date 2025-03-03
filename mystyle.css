@@ -32,6 +32,8 @@
         font-size: 2rem;
         color: #4ecca3;
         font-family: "Indie Flower", cursive;
+        text-align: center;
+        font-style: italic;
     }
 
     button {
