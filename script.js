@@ -10,7 +10,7 @@ async function rollDice() {
 
         let data = await response.json();
 
-        // Display the rolled number
+        // Displays number
         document.getElementById("result").textContent = `You rolled a ${data.result}`;
     } catch (error) {
         document.getElementById("result").textContent = "Error rolling dice.";
