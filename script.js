@@ -1,4 +1,5 @@
-const serverUrl = "https://dice-roller-node-js-go-b5c8c5b0hahkcrfx.centralus-01.azurewebsites.net/"; // Replace with your actual API URL
+const serverUrl =
+"https://dice-roller-node-js-go-b5c8c5b0hahkcrfx.centralus-01.azurewebsites.net/";
 
 async function rollDice() {
     try {
